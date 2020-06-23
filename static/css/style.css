@@ -308,4 +308,197 @@
   background-repeat: no-repeat;
   background-position: top center;
 }
+.indexProjectMain .programaTitleBox {
+  width: 212px;
+  height: 118px;
+  background-color: #187fc3;
+  text-align: center;
+  padding-top: 27px;
+  border-radius: 0 0 45px 45px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.indexProjectMain .programaTitleBox h3 {
+  font-size: 34px;
+  line-height: 34px;
+  color: #fff;
+  font-weight: bold;
+}
+.indexProjectMain .programaTitleBox p {
+  font-size: 16px;
+  line-height: 16px;
+  padding-top: 16px;
+  color: #fff;
+}
+.indexProjectMain {
+  width: 1290px;
+  margin: 0 auto;
+}
+.proListMain {
+  padding-top: 52px;
+}
+.proListUl {
+  overflow: hidden;
+}
+.proListUl li {
+  width: 302px;
+  float: left;
+  background-color: #EEEEEE;
+  margin-right: 27px;
+}
+.proListUl li:last-of-type {
+  margin-right: 0;
+}
+.proListUl li:hover {
+  background-color: #187FC3;
+}
+.proListUl li:hover h2,
+.proListUl li:hover p {
+  color: #fff;
+}
+.proListUl li a {
+  display: block;
+}
+.proListUl li a img {
+  display: block;
+}
+.proListUl li a div {
+  height: 263px;
+  text-align: center;
+}
+.proListUl li a div h2 {
+  font-size: 30px;
+  color: #666666;
+  line-height: 30px;
+  padding-top: 84px;
+  font-weight: 400;
+}
+.proListUl li a div p {
+  font-size: 16px;
+  color: #187FC3;
+  line-height: 16px;
+  padding-top: 29px;
+}
+.indexTreatmentMain {
+  margin-top: 30px;
+  height: 845px;
+  background: url('../images/mainBgImg.jpg') no-repeat;
+  background-size: 100% 100%;
+}
+.titleTreatmentBox {
+  padding-top: 35px;
+  text-align: center;
+}
+.titleTreatmentBox h1 {
+  font-size: 34px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 34px;
+}
+.titleTreatmentBox p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 16px;
+  padding-top: 16px;
+}
+.treatmentListMain {
+  width: 1290px;
+  margin: 0 auto;
+  padding-top: 44px;
+}
+.treatmentListUl {
+  overflow: hidden;
+}
+.treatmentListUl li {
+  width: 310px;
+  height: 248px;
+  background: #fff;
+  float: left;
+  padding: 10px;
+  margin-right: 16px;
+  box-sizing: border-box;
+}
+.treatmentListUl li:last-of-type {
+  margin-right: 0;
+}
+.treatmentListUl li a {
+  display: block;
+}
+.treatmentListUl li a img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.treatmentListUl li:hover img {
+  opacity: 0.6;
+}
+.treatmentBrief {
+  width: 1014px;
+  padding-top: 170px;
+  line-height: 44px;
+  font-size: 24px;
+  margin: 0 auto;
+  color: #fff;
+  text-align: center;
+}
+.argumentMain {
+  width: 1290px;
+  margin: -73px auto 0;
+}
+.argumentMain .longLineBg {
+  width: 1240px;
+  height: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding: 3px 7px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.argumentMain .longLineBg .smallLineBg {
+  width: 100%;
+  height: 4px;
+  background: #002038;
+  border-radius: 4px;
+}
+.argumentMain .argumentBox {
+  background: url('../images/waveBgTopImg.jpg') repeat-y;
+  background-size: 100% auto;
+}
+.argumentMain .argumentBox .argumentTitleBox {
+  padding-top: 44px;
+  text-align: center;
+}
+.argumentMain .argumentBox .argumentTitleBox h2 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 34px;
+  color: #187fc3;
+}
+.argumentMain .argumentBox .argumentTitleBox p {
+  font-size: 16px;
+  color: #187fc3;
+  line-height: 16px;
+  padding-top: 19px;
+}
+.argumentMain .argumentBox .argumentListBox {
+  padding: 92px 40px 60px;
+  overflow: hidden;
+}
+.argumentMain .argumentBox .argumentListBox .argumentItem {
+  width: 16.666666%;
+  float: left;
+  text-align: center;
+}
+.argumentMain .argumentBox .argumentListBox .argumentItem img {
+  width: 63px;
+  height: 63px;
+  display: block;
+  margin: 0 auto;
+}
+.argumentMain .argumentBox .argumentListBox .argumentItem p {
+  font-size: 20px;
+  color: #333333;
+  line-height: 20px;
+  padding-top: 25px;
+}
 /*联系我们*/
