@@ -7,10 +7,10 @@
     <div class="subPageBannerMain">
         <div class="subPageBannerBox" style="background-image:url('static/images/subpageBannerImg.jpg')"></div>
         <div class="subPageNavBox ren-flex-ce">
-             <a href="javascript:;" class="active">
+             <a href="contact.asp" class="active">
                  联系我们
              </a>
-             <a href="javascript:;">
+             <a href="joinFrom.asp">
                  我要加盟
              </a>
         </div>
@@ -26,6 +26,8 @@
     </div>
     <!--#include file="public/subPage.asp"-->
     </section>
+     <!--#include file="public/leftFlotage.asp"--> 
+    <!--#include file="public/rightFlotage.asp"--> 
     <!--#include file="public/footer.asp"-->
     <!--#include file="public/bottom.asp"-->
     <script>

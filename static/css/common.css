@@ -47,6 +47,9 @@ img{
 .ren-flex-ac {
   align-items: center;
 }
+/* 清除浮动 */
+.clear:after,.clear:before {content:".";display:block;visibility:hidden;height:0;clear:both;}
+
 /* 动画 */
 .animated {
 	animation-duration: 1s;

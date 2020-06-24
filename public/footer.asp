@@ -5,16 +5,19 @@
                 <a href="index.asp">
                     首页
                 </a>
-                <a href="index.asp">
-                    关于团队
+                <a href="brandIntroduction.asp">
+                    品牌介绍
                 </a>
-                <a href="index.asp">
-                    服务案例
+                <a href="servicesAvailable.asp">
+                    服务项目
                 </a>
-                <a href="index.asp">
-                    新闻资讯
+                <a href="joinFlow.asp">
+                    招商加盟
                 </a>
-                <a href="index.asp">
+                <a href="news.asp">
+                        新闻动态
+                </a>
+                <a href="contact.asp">
                     联系我们
                 </a>
             </div>

@@ -125,10 +125,71 @@
                 </div>
             </div>
             <div class="argumentWave">
-                <img src="static/images/waveBgImg.jpg" alt="wave">
+                <img src="static/images/waveBgImg.png" alt="wave">
+            </div>
+        </div>
+        <!-- 项目介绍 -->
+        <div class="newsMain">
+            <div class="newsBox">
+                <div class="programaTitleBox">
+                    <h3>新闻动态</h3>
+                    <p>NEWS</p>
+                </div>
+                <div class="newsNavBox">
+                    <a href="javascript:;" class="active">公司新闻</a>
+                    <a href="javascript:;">行业动态</a>
+                </div>
+                <!-- 公司新闻 -->
+                <div class="newsListDivBox" style="display:block;">
+                    <ul class="newsListUl">
+                        <% for i = 0 to 2 %>
+                        <li>
+                            <a href="newsDetail.asp">
+                                <img src="static/images/upload/img03.jpg" alt="新闻动态">
+                                <div>
+                                    <h3 class="ellipsis">公司新闻公司新闻公司新闻公司新闻</h3>
+                                    <span>
+                                        <i class="iconfont icon-shijianzhongbiao"></i>
+                                        2020-6-19
+                                    </span>
+                                    <p>公司新闻公司新闻公司新闻公司新闻公司新闻</p>
+                                </div>
+                            </a>
+                        </li>
+                        <% next %> 
+                    </ul>
+                    <div class="newsListViewMore">
+                        <a href="news.asp">查看更多 ></a>
+                    </div>
+                </div>
+                <!-- 行业动态 -->
+                <div class="newsListDivBox">
+                        <ul class="newsListUl">
+                            <% for i = 0 to 2 %>
+                            <li>
+                                <a href="javascript:;">
+                                    <img src="static/images/upload/img03.jpg" alt="新闻动态">
+                                    <div>
+                                        <h3 class="ellipsis">行业动态行业动态行业动态行业动态行</h3>
+                                        <span>
+                                            <i class="iconfont icon-shijianzhongbiao"></i>
+                                            2020-6-19
+                                        </span>
+                                        <p>行业动态行业动态行业动态行业动态行</p>
+                                    </div>
+                                </a>
+                            </li>
+                            <% next %> 
+                        </ul>
+                        <div class="newsListViewMore">
+                            <a href="news.asp">查看更多 ></a>
+                        </div>
+                    </div>
             </div>
         </div>
     </section>
+    <!--#include file="public/leftFlotage.asp"--> 
+    <!--#include file="public/rightFlotage.asp"--> 
     <!--#include file="public/footer.asp"-->
     <!--#include file="public/bottom.asp"-->
     <script>
@@ -148,6 +209,12 @@
                     dynamicBullets: true,
                 },
             });
+            //新闻切换
+            $(".newsNavBox a").click(function(){
+                var $index = $(this).index();
+                $(this).addClass('active').siblings().removeClass('active');
+                $(".newsListDivBox").eq($index).show().siblings(".newsListDivBox").hide();
+            })
         })
     </script>
 </body>
