@@ -74,10 +74,10 @@
         </div>
         <!--#include file="public/subPage.asp"-->
     </section>
-     <!--#include file="public/leftFlotage.asp"--> 
-    <!--#include file="public/rightFlotage.asp"--> 
-    <!--#include file="public/footer.asp"-->
+  <!--#include file="public/footer.asp"-->
     <!--#include file="public/bottom.asp"-->
+    <!--#include file="public/rightFlotage.asp"-->
+    <!--#include file="public/leftFlotage.asp"-->
     <script>
         $(function () {
 

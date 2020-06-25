@@ -27,18 +27,18 @@
         </div>
         <!-- main -->
         <div class="subPageMain">
-            <div class="contactMain">
-                <div class="contactBox">
-                    加盟保障
+            <div class="joinSafeguardMain">
+                <div class="joinSafeguardBox">
+                    加盟保障 -- 简介页
                 </div>
             </div>
         </div>
         <!--#include file="public/subPage.asp"-->
     </section>
-     <!--#include file="public/leftFlotage.asp"--> 
-    <!--#include file="public/rightFlotage.asp"--> 
-    <!--#include file="public/footer.asp"-->
+  <!--#include file="public/footer.asp"-->
     <!--#include file="public/bottom.asp"-->
+    <!--#include file="public/rightFlotage.asp"-->
+    <!--#include file="public/leftFlotage.asp"-->
     <script>
         $(function () {
 

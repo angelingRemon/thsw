@@ -1,9 +1,11 @@
 @mainWeight: 1290px;
+@subWeight:1200px;
 .subPageContainer {
     background: #f0f0f0;
     .subPageMain {
-        width: @mainWeight;
+        width: @subWeight;
         margin: 0 auto;
+        min-height:300px;
     }
 }
 /*左漂浮*/
@@ -12,7 +14,7 @@
     background:#187fc3;
     position: fixed;
     left:0;
-    top:20%;
+    top:200px;
     z-index:999;
     padding-top:22px;
     padding-bottom:10px;
@@ -39,9 +41,9 @@
 /*右漂浮*/
 .rightFlotage{
     width:54px;
-    position: fixed;
+    position:fixed;
     right:1px;
-    top:20%;
+    top:200px;
     z-index:999;
     a{
         display:block;
