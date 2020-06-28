@@ -15,7 +15,7 @@
                     招商加盟
                 </a>
                 <a href="news.asp">
-                        新闻动态
+                    新闻动态
                 </a>
                 <a href="contact.asp">
                     联系我们
@@ -23,6 +23,11 @@
             </div>
             <div class="footerLeftWebsite">www.baidu.com</div>
         </div>
+        <!-- phone start-->
+        <div class="logoImgMain">
+            <img class="logoImg" src="static/images/logoImg.jpg" alt="">
+        </div>
+        <!-- phone end -->
         <div class="footerMeddleMain">
             <p>
                 <span>电话：13888888888</span>
@@ -36,7 +41,28 @@
         <div class="footerRightMain">
             <h3>活动支持</h3>
         </div>
+          <!-- phone start-->
+          <div class="logoImgMain">
+            <div class="rCodeImgBox">
+                <img src="static/images/rCodeImg.jpg" alt="二维码">
+                <p>长按识别关注公众号</p>
+            </div>
+        </div>
+        <!-- phone end -->
     </div>
 </div>
 <script src="static/js/jquery-1.8.3.min.js"></script>
 <script src="static/js/swiper.min.js"></script>
+<script>
+    $(function () {
+        //移动端侧滑菜单
+        $(".phoneMenuBtn").click(function () {
+            $('.phoneMenuOverlazy').show();
+            $('.phoneMenuPupon').css('right','0');
+        })
+        $('.phoneMenuOverlazy').click(function(){
+            $('.phoneMenuOverlazy').hide();
+            $('.phoneMenuPupon').css('right','-250px'); 
+        })
+    })
+</script>

@@ -1,3 +1,4 @@
+<div class="pcFooterBottomNav"></div>
 <div class="footerBottomMain">
     <div class="footerBottomBox">
         <a href="javascript:;">
@@ -17,3 +18,28 @@
         </a>
     </div>
 </div>
+<!-- phoneFooter start -->
+<div class="phoneNav"></div>
+<div class="phoneFooterButtonMain ren-flex-sa">
+    <div class="phoneFooterButtonItem">
+        <a href="javascript:;">
+            <i class="iconfont icon-chanpin"></i>
+            服务项目
+        </a>
+    </div>
+    <div class="phoneFooterButtonItem">
+        <div class="phoneItem">
+            <a href="javascript:;">
+                <i class="iconfont icon-dianhua"></i>
+                电话咨询
+            </a>
+        </div>
+    </div>
+    <div class="phoneFooterButtonItem">
+        <a href="javascript:;">
+            <i class="iconfont icon-hezuo"></i>
+            招商加盟
+        </a>
+    </div>
+</div>
+<!-- phoneFooter end -->
